@@ -167,6 +167,7 @@ df.loc[:, ["country","capital"]]
 **`iloc` (position-based)**
 - Select rows/columns by integer positions, e.g. `df.iloc[rows, cols]`.
 
-python
-Copy code
+```python
+
 df.iloc[:, [0,1]]
+```
